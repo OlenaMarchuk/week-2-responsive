@@ -3,9 +3,7 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  margin: 60px 231px;
-}
+
 h1 {
   font-size: 96px;
 }
@@ -22,6 +20,7 @@ h3 {
   text-align: center;
   margin: 0;
 }
+
 .button-links {
   display: flex;
   margin-top: 40px;
