@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 h1 {
   font-size: 96px;
@@ -55,4 +55,27 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .app-description {
+    text-align: center;
+  }
+  .contact-button,
+  .app-button {
+    display: block;
+    margin: 0 20px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 576px) {
+  .app-heading {
+    text-align: left;
+  }
 }
